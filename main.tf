@@ -20,7 +20,7 @@ resource "azurerm_resource_group" "rg" {
 }
 
 resource "random_pet" "table_name" {
-  length = ""
+  length = 1
 }
 
 resource "azurerm_storage_account" "stor" {
