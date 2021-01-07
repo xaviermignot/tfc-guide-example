@@ -3,6 +3,11 @@ variable "aws_region" {
   default = "us-west-1"
 }
 
+variable "az_location" {
+  type = string
+  default = "France Central"
+}
+
 variable "db_table_name" {
   type    = string
   default = "terraform-learn"
